@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate_gulp",
+  "version": "1.0.0",
+  "description": "boilerplate para projetos com gulp",
+  "main": "gulpfile.js",
+  "author": "Pedro Reis", 
+  "license": "MIT",
+  "homepage": "https://github.com/programador-pedroreis",
+  
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.44.0"
+  }
+}

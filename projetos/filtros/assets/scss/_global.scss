@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    color: #141824;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 1.25rem;
+  }
+}

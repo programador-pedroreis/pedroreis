@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Teste Olivas</title>
+</head>
+
+<body>
+
+  <header id="header">
+
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+
+      <ul id="menu" role="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">COntato</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Titulo da Página PROJETOS</h1>
+  </div>
+
+  <div class="container area_projetos">
+
+    <aside id="BtnAreadeProjetos">
+
+      <button class="btn active" onclick="filterSelection('todos')"> Todos</button>
+      <button class="btn" onclick="filterSelection('desenvolvimento')"> Desenvolvimento</button>
+      <button class="btn" onclick="filterSelection('WebDesign')"> Web Design</button>
+      <button class="btn" onclick="filterSelection('ux_ui')"> UX/UI</button>
+
+    </aside>
+
+    <section class="projetos">
+      <div class="projetos_itens desenvolvimento">
+
+        <h3>Titulo do Projeto</h3>
+
+        <a href="projeto_interna.html">
+          <img src="/assets/img/dev1.jpg">
+        </a>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius illum...</p>
+
+        <a href="categorias.html" class="categoria">
+          Categoria
+        </a>
+
+      </div>
+
+      <div class="projetos_itens desenvolvimento ">
+
+        <img src="/assets/img/dev2.jpg">
+
+        <h3>desenvolvimento</h3>
+
+        <p>Lorem ipsum dolor..</p>
+
+        <a href="#">
+          <h5>DESENVOLVIMENTO</h5>
+        </a>
+
+      </div>
+
+      <div class="projetos_itens desenvolvimento ">
+
+        <img src="/assets/img/dev3.jpg">
+
+        <h3>desenvolvimento</h3>
+
+        <p>Lorem ipsum dolor..</p>
+        <a href="#">
+          <h5>DESENVOLVIMENTO</h5>
+        </a>
+
+      </div>
+
+
+
+      <div class="projetos_itens WebDesign">
+
+        <img src="/assets/img/web1.jpg">
+
+        <a href="#">
+          <h5>DESENVOLVIMENTO</h5>
+        </a>
+
+        <h3>WebDesign</h3>
+
+        <p>Lorem ipsum dolor..</p>
+
+
+
+      </div>
+
+      <div class="projetos_itens WebDesign">
+
+        <img src="/assets/img/web2.jpg">
+
+        <a href="#">
+          <h5>DESENVOLVIMENTO</h5>
+        </a>
+
+        <h3>WebDesign</h3>
+
+        <p>Lorem ipsum dolor..</p>
+
+
+
+      </div>
+
+      <div class="projetos_itens WebDesign">
+
+        <img src="/assets/img/web3.jpg">
+
+        <a href="#">
+          <h5>DESENVOLVIMENTO</h5>
+        </a>
+
+        <h3>WebDesign</h3>
+
+        <p>Lorem ipsum dolor..</p>
+
+
+
+      </div>
+
+      <div class="projetos_itens ux_ui">
+        <div class="content">
+          <img src="/assets/img/mob1.jpg">
+
+          <h3>ux_ui</h3>
+
+          <p>Lorem ipsum dolor..</p>
+          <a href="#">
+            <h5>DESENVOLVIMENTO</h5>
+          </a>
+        </div>
+      </div>
+
+      <div class="projetos_itens ux_ui">
+
+        <img src="/assets/img/mob2.jpg">
+
+        <h3>ux_ui</h3>
+
+        <p>Lorem ipsum dolor..</p>
+        <a href="#">
+          <h5>DESENVOLVIMENTO</h5>
+        </a>
+
+      </div>
+
+
+    </section>
+  </div>
+
+
+</body>
+
+
+<!-- SCRIPTS JS -->
+<script src="assets/js/main.js"></script>
+
+</html>
